@@ -28,7 +28,7 @@ const RegisterScreent = () => {
   const [showMessage, setShowMessage] = useState<ShowMessage>({
     visible: false,
     message: "",
-    color: "#ff0000", // Rojo para errores
+    color: "#ff0000",
   });
 
   const [hiddenPassword, setHiddenPassword] = useState<boolean>(true);
@@ -56,7 +56,7 @@ const RegisterScreent = () => {
       setShowMessage({
         visible: true,
         message: "Registro exitoso",
-        color: "#008000", // Verde para éxito
+        color: "#008000", 
       });
     } catch (e) {
       console.log(e);

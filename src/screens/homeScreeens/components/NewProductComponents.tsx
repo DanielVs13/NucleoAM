@@ -104,13 +104,13 @@ const NewProductComponents = ({
             <TextInput
               label="Precio"
               keyboardType="numeric"
-              style={{ width: "49%" }}
+              style={{ width: "50%" }}
               onChangeText={(value) => handleSetValues("price", value)}
             />
             <TextInput
               label="Stock"
               keyboardType="numeric"
-              style={{ width: "49%" }}
+              style={{ width: "50%" }}
               onChangeText={(value) => handleSetValues("stock", value)}
             />
           </View>

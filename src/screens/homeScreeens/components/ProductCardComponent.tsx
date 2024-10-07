@@ -21,7 +21,7 @@ export const ProductCardComponent = ({ product }: Props) => {
             </View>
             <View>
                 <IconButton
-                    icon="camera"
+                    icon="pencil"
                     size={24}
                     onPress={() => navigation.dispatch(CommonActions.navigate({ name: 'Detail', params: { product } }))}
                 />
